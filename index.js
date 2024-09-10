@@ -1,6 +1,14 @@
-var list = document.getElementsByTagName('ol')
+var numero = document.querySelector('#n')
+var i = 0
 
-function adicionar() {
-    console.log("Fabio")
-    list.innerHTML = ""
+function adicionar(){
+    i+=1
+    
+    numero.innerHTML = i
+    return numero
+}
+
+function limpar(){
+    i-=1
+    numero.innerHTML = i
 }
