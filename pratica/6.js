@@ -8,4 +8,4 @@ for(pos in arr){
     
 }
 
-console.log(arr)
+console.log(arr, "ola")
